@@ -1,0 +1,9 @@
+@font-face {
+    font-family: "Epilogue";
+    src: url(epilogue/Epilogue-VariableFont_wght.ttf);
+    descent-override: 0%;
+}
+@font-face {
+    font-family: "Epilogue italic";
+    src: url(epilogue/Epilogue-Italic-VariableFont_wght.ttf);
+}

@@ -1,0 +1,18 @@
+:root {
+  --primary-color: rgb(44, 195, 146);
+  --primary-gradiant: linear-gradient(
+    -90deg,
+    rgb(162, 73, 237) 0%,
+    rgb(97, 49, 232) 100%
+  );
+  --heading-color: rgb(255, 255, 255);
+  --heading-color-2: rgb(44, 44, 43);
+  --heading-color-3: rgb(20, 20, 21);
+  --heading-color-4: rgb(2c, 2c, 2b);
+  --text-color: rgb(233, 233, 233);
+  --text-color-2: rgb(86, 86, 86);
+  --text-color-3: rgb(38, 37, 36);
+  --bg-color: rgb(17, 17, 17);
+  --bg-color-2: rgb(31, 31, 31);
+  --bg-color-3: rgb(255, 255, 255);
+}

@@ -1,0 +1,103 @@
+.loader span {
+  animation: 3s forwards cubic-bezier(0.445, 0.05, 0.55, 0.95) loading;
+}
+@keyframes loading {
+  0% {
+    width: 0;
+  }
+
+  100% {
+    width: 100%;
+  }
+}
+.menu-active {
+  animation: menuActive 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+  display: block;
+  transform: translateX(100%);
+}
+@keyframes menuActive {
+  1% {
+    display: block;
+  }
+  2% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+#circle-text {
+  animation: 8s infinite linear spinningText;
+}
+@keyframes spinningText {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform-origin: center;
+    transform: rotate(360deg);
+  }
+}
+
+.explode-circle {
+  animation: explode 0.5s forwards;
+}
+
+.desplode-circle {
+  animation: desplode 0.5s forwards;
+}
+
+@keyframes explode {
+  0% {
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgba(42, 53, 80, 0.2);
+  }
+  100% {
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: rgba(20, 180, 87, 0.8);
+  }
+}
+
+@keyframes desplode {
+  0% {
+    width: 400px;
+    height: 400px;
+    margin-left: -200px;
+    margin-top: -200px;
+    background-color: rgba(20, 180, 87, 0.8);
+  }
+  100% {
+    width: 0px;
+    height: 0px;
+    margin-left: 0px;
+    margin-top: 0px;
+    background-color: rgba(129, 80, 108, 0.6);
+  }
+}
+.glow:after,
+.glow:before {
+  animation: glow 2s infinite cubic-bezier(0.55, 0.055, 0.675, 0.19);
+}
+
+@keyframes glow {
+  0% {
+    transform: scale(0.6);
+    opacity: 1;
+    box-shadow: inset 0px 0px 25px 3px rgba(255, 255, 255, 0.75),
+      0px 0px 25px 10px rgba(255, 255, 255, 0.75);
+  }
+  100% {
+    transform: scale(1);
+    opacity: 0;
+    box-shadow: none;
+  }
+}
+.glow:before {
+  animation-delay: 400ms;
+}

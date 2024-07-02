@@ -1,0 +1,638 @@
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1300px;
+  }
+}
+
+@media (max-width: 1440px) {
+  .socialMenu {
+    display: none;
+  }
+  .shapes img:nth-child(2) {
+    left: 80%;
+    width: 100px;
+  }
+  .shapes img:nth-child(3) {
+    top: 80%;
+  }
+  .starta-helpline {
+    padding-left: 20px;
+  }
+  .starta-helpline article p {
+    font-size: 14px;
+  }
+  .starta-helpline article h4 {
+    font-size: 16px;
+  }
+  .plan .starta-icon {
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 /1;
+  }
+  .clients {
+    width: 100%;
+  }
+  .heroHeading {
+    font-size: 55px;
+  }
+}
+@media (max-width: 1200px) {
+  .aboutClients .starta-h4 {
+    font-size: 20px;
+  }
+  .starta-nav {
+    padding: 20px 0;
+  }
+  .sticky {
+    padding: 15px 0;
+  }
+  .starta-menu {
+    gap: 25px;
+    padding: 0 30px;
+  }
+  .starta-menu li a,
+  .starta-helpline article h4,
+  .heroDesc,
+  .starta-list li {
+    font-size: 16px;
+  }
+  .logo {
+    padding-right: 20px;
+    font-size: 35px;
+  }
+  .starta-helpline {
+    padding-left: 20px;
+  }
+  .starta-helpline article p {
+    font-size: 18px;
+  }
+  .starta-helpline i {
+    width: 35px;
+    height: 35px;
+    font-size: 15px;
+    border-width: 2px;
+  }
+  .heroHeading {
+    font-size: 50px;
+  }
+  .hero-service {
+    width: 100%;
+  }
+  .sideImg {
+    height: 500px;
+  }
+  .shapes img {
+    width: 100px;
+  }
+  .shapes img:nth-child(2) {
+    left: 80%;
+  }
+  .shapes img:nth-child(3) {
+    top: 80%;
+  }
+  .starta-icon {
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 /1;
+    font-size: 35px;
+  }
+  .starta-h4 {
+    font-size: 22px;
+    margin-bottom: 8px;
+  }
+  .starta-desc {
+    font-size: 16px;
+  }
+  .starta-heading {
+    font-size: 18px;
+    padding: 0 20px;
+  }
+  .starta-heading i {
+    font-size: 18px;
+    margin-right: 5px;
+  }
+  .starta-h1,
+  .starta-h2 {
+    font-size: 40px;
+  }
+  .starta-h5.fw-bold {
+    height: 25px;
+    width: 100%;
+    padding: 0;
+  }
+  .stars i {
+    font-size: 18px;
+  }
+  .starta-h5 {
+    font-size: 16px;
+  }
+  .starta-list li {
+    margin-bottom: 20px;
+  }
+  .starta-list i {
+    margin-right: 5px;
+  }
+  .service {
+    padding: 30px;
+  }
+  .service i {
+    width: 100px;
+    height: 100px;
+  }
+  .starta-block .starta-h2 {
+    width: 100%;
+  }
+  .contact-line {
+    height: 35px;
+    font-size: 15px;
+  }
+  .video-block {
+    width: auto;
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .video-block img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .starta-project .starta-icon {
+    margin-right: 20px;
+  }
+  .playBtn {
+    width: 110px;
+    height: 110px;
+  }
+  #circle-text {
+    font-size: 12px;
+  }
+  .plan {
+    padding: 35px;
+  }
+  .plan .starta-icon {
+    aspect-ratio: 1 /1;
+    width: auto;
+    height: auto;
+    font-size: 25px;
+  }
+  .plan-heading .starta-h2,
+  .starta-progress .starta-h2 {
+    font-size: 20px;
+  }
+  .plan-heading p {
+    font-size: 15px;
+  }
+  .plan .starta-list {
+    margin-top: 10px;
+  }
+  .plan .starta-list li {
+    font-size: 15px;
+  }
+  .discount {
+    font-size: 10px;
+  }
+  .progress-text {
+    font-size: 50px;
+    margin-bottom: 10px;
+  }
+  .starta-progress {
+    margin-bottom: 30px;
+  }
+  .progress-single p {
+    font-size: 16px;
+  }
+  .starta-about .video-block {
+    height: 400px;
+    width: 100%;
+  }
+  .starta-about-bg {
+    top: 65%;
+  }
+  .clients {
+    width: 100%;
+    padding: 30px 35px;
+  }
+  .check {
+    width: 100%;
+  }
+  .my-5 {
+    margin-top: 1.5rem !important;
+    margin-bottom: 1.5rem !important;
+  }
+  .py-5 {
+    padding-bottom: 1.5rem !important;
+    padding-top: 1.5rem !important;
+  }
+
+  .mt-5 {
+    margin-top: 1.5rem !important;
+  }
+  .pt-5 {
+    padding-top: 1.5rem !important;
+  }
+  .pb-5 {
+    padding-bottom: 1.5rem !important;
+  }
+
+  .mb-5 {
+    margin-bottom: 1.5rem !important;
+  }
+  .starta-about-bg {
+    height: 80%;
+  }
+  .accordion-header button {
+    font-size: 20px;
+    height: 70px;
+  }
+  .accordion-body {
+    padding: 25px 40px;
+  }
+  .starta-h3 {
+    font-size: 25px;
+  }
+  .accordion-body .starta-h3 {
+    margin-bottom: 10px;
+  }
+  .testimonialSingle .starta-h2 {
+    font-size: 24px;
+  }
+  .starta-h1,
+  .starta-h2 {
+    margin: 12px 0;
+  }
+  .testimonialSingle .starta-h4 {
+    font-size: 18px;
+    font-weight: normal;
+  }
+  .swiper {
+    height: 150px;
+  }
+  .starta-footer .starta-h1 {
+    font-size: 50px;
+  }
+  .starta-footer .starta-h4 {
+    font-size: 20px;
+  }
+  .footer-list li {
+    margin-bottom: 10px;
+  }
+  .footer-list li a {
+    font-size: 14px;
+  }
+  .newsLetter {
+    padding: 10px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .sideImg {
+    height: max-content;
+  }
+  .aboutClients {
+    padding: 30px 20px;
+  }
+  .featuring {
+    font-size: 10px;
+  }
+  .marketingID input {
+    height: 50px;
+  }
+  .lap-sm-50 {
+    width: 50%;
+  }
+  .lap-sm-100 {
+    width: 100%;
+  }
+  .lap-sm-none {
+    display: none;
+  }
+  .starta-nav .starta-menu,
+  .starta-nav .starta-helpline,
+  .socialMenu {
+    display: none;
+  }
+  .menuIcon {
+    display: grid;
+    z-index: 30;
+  }
+  .starta-mobile-nav {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    background-color: rgb(23, 23, 23);
+
+    z-index: 20;
+  }
+
+  .logo {
+    border: 0;
+  }
+  .starta-mobile-nav .starta-menu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    gap: 40px;
+  }
+  .starta-menu li a {
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .menuIcon {
+    width: 40px;
+    height: 40px;
+  }
+  .menuIcon span {
+    width: 12px;
+  }
+  .starta-h4 {
+    font-size: 18px;
+  }
+  .starta-desc,
+  .stars i,
+  .starta-list i,
+  .starta-list li,
+  .starta-h5 {
+    font-size: 14px;
+  }
+  .starta-heading {
+    font-size: 16px;
+    height: 40px;
+  }
+  .starta-heading i {
+    font-size: 16px;
+  }
+  .starta-performance {
+    width: 90%;
+    padding: 15px 10px;
+  }
+  .starta-h1,
+  .starta-h2 {
+    font-size: 30px;
+  }
+  .starta-list li {
+    margin-bottom: 10px;
+  }
+  .starta-h5.fw-bold {
+    font-size: 12px;
+  }
+  .starta-button {
+    padding: 0 25px;
+    font-size: 16px;
+    height: 50px;
+  }
+  .featureslide {
+    height: 70px;
+  }
+  .slide {
+    font-size: 35px;
+  }
+  .service i {
+    width: 70px;
+    height: 70px;
+  }
+  .contact-line {
+    font-size: 12px;
+  }
+  .starta-progress {
+    padding: 25px 0;
+    min-height: 250px;
+  }
+  .starta-progress .starta-h2 {
+    font-size: 18px;
+  }
+  .progress-text {
+    font-size: 40px;
+  }
+  .progress-single p {
+    font-size: 14px;
+  }
+  .client {
+    border-radius: 15px;
+  }
+  .client img {
+    width: 30px;
+    height: 30px;
+  }
+  .contact-box article {
+    font-size: 16px;
+  }
+  .contact-box i {
+    font-size: 16px;
+  }
+  .accordion-header button {
+    font-size: 18px;
+  }
+  .starta-h3 {
+    font-size: 16px;
+  }
+  .testimonialSingle .starta-h2 {
+    font-size: 18px;
+  }
+  .testimonialSingle .starta-h4 {
+    font-size: 16px;
+  }
+  .py-md-5 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+  }
+  .swiper {
+    height: 120px;
+  }
+  .bottomSlide {
+    padding-bottom: 10px;
+  }
+  .topSlide {
+    padding-top: 10px;
+  }
+  .bottomSlide::after,
+  .topSlide::before {
+    height: 4px;
+  }
+  .starta-social li a {
+    font-size: 18px;
+  }
+  .stars {
+    margin: 0 auto;
+  }
+  .testimonialSingle .testimonialClient {
+    width: 90px;
+  }
+  .testimonialSingle .qoute {
+    width: 30px;
+  }
+  .starta-footer .starta-h1 {
+    font-size: 35px;
+  }
+  .newsLetter {
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 25px;
+  }
+}
+@media (max-width: 768px) {
+  .heroClients {
+    display: none;
+  }
+  .heroHeading {
+    font-size: 35px;
+  }
+  .starta-icon {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+  }
+  .featureSingle {
+    margin-bottom: 15px;
+  }
+  .featureSingle .starta-icon {
+    margin-bottom: 10px;
+  }
+
+  .starta-h5.fw-bold {
+    width: max-content;
+  }
+  .starta-h5 {
+    margin-bottom: 40px;
+  }
+  .service {
+    text-align: center;
+    height: 220px;
+  }
+  .service .starta-icon {
+    margin: 0 auto;
+  }
+
+  .contact-line {
+    width: 100%;
+  }
+  .starta-plans .starta-h1 {
+    width: 100%;
+  }
+  .tab-100 {
+    width: 100%;
+  }
+  .animate-img3 {
+    margin-bottom: 20px;
+  }
+  .starta-about-bg {
+    top: 70%;
+  }
+  .accordion-header button {
+    font-size: 15px;
+    padding: 0 30px;
+    height: 45px;
+  }
+  .starta-footer .border-end {
+    border: 0 !important;
+    border-bottom: solid 2px rgb(49, 49, 49) !important;
+    padding-bottom: 20px;
+  }
+  .testimonialSingle .qoute {
+    display: none;
+  }
+  .loader span {
+    font-size: 50px;
+  }
+  .starta-progress .starta-h2 {
+    text-align: center;
+  }
+}
+@media (max-width: 576px) {
+}
+
+@media (max-width: 480px) {
+  .heroHeading {
+    font-size: 26px;
+  }
+  .starta-menu li a,
+  .starta-helpline article h4,
+  .heroDesc,
+  .starta-list li {
+    font-size: 14px;
+  }
+  .starta-mobile-nav .starta-menu li a {
+    font-size: 35px;
+  }
+  .starta-mobile-nav .starta-menu {
+    gap: 20px;
+  }
+  .featureSingle {
+    text-align: center;
+  }
+  .featureSingle .starta-icon {
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+  .starta-h1,
+  .starta-h2 {
+    font-size: 24px;
+  }
+  .featureslide {
+    height: 50px;
+  }
+  .slide {
+    font-size: 25px;
+  }
+  .starta-block.p-5 {
+    padding: 20px;
+  }
+  .contact-line {
+    height: auto;
+    display: grid;
+    padding: 20px;
+    bottom: -31px;
+  }
+  .starta-h2.text-sm-center.starta-h2.text-sm-center.mb-sm-4 {
+    margin-bottom: 20px;
+  }
+  .progress-none {
+    display: none;
+  }
+  .progress-single {
+    margin-bottom: 20px;
+  }
+  .scrollbar-track {
+    opacity: 0 !important;
+    display: none !important;
+  }
+  .clients {
+    border-radius: 0;
+    padding: 20px 25px;
+    margin-bottom: 20px;
+  }
+  .starta-about .video-block {
+    height: 300px;
+  }
+  .accordion-header button {
+    font-size: 12px;
+    height: 30px;
+    padding: 20px;
+  }
+  .accordion-body {
+    padding: 15px 25px;
+  }
+  .testimonialSingle .starta-h2,
+  .testimonialSingle .starta-h4 {
+    font-size: 14px;
+  }
+  .testimonialSingle .testimonialClient {
+    width: 56px;
+  }
+  .clientStars i {
+    font-size: 12px;
+    margin-right: 1px;
+  }
+  .swiper {
+    height: 100px;
+  }
+  .col-md-4.lap-sm-50.tab-100.mt-sm-4 {
+    margin-top: 30px;
+  }
+  .newsLetter {
+    width: 100%;
+  }
+}
